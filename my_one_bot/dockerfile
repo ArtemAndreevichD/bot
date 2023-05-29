@@ -1,0 +1,5 @@
+FROM python:slim
+ENV TOKEN='6027912240:AAG9bcapEv5bwx0vq1b8ETVze5oOft8hgpA'
+COPY . .
+RUN pip install -r requirements.txt
+CMD python bot.py
